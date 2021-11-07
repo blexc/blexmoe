@@ -1,2 +1,2 @@
 # alex chapman's epic website
-blex.moe
+[blex.moe](https://www.blex.moe)
