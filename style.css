@@ -15,7 +15,6 @@ ul { padding: 0px; }
 li { list-style: none; }
 hr { color: red; border: none; width: 75%; height: 1px; background-color: red; }
 
-// ordering is important
 a:visited {color: red; text-decoration: none; }
 a:hover { color: darkred; text-decoration: none; }
 a:active { color: red; text-decoration: none; }
