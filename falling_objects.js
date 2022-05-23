@@ -10,7 +10,7 @@ var bsw_amount = 2;
 var bsw_speed = 0;
 var bsw_amplitude = 0;
 var bsw_design = 12;
-var bsw_off = 0;
+var bsw_off = 1;
 var bsw_deleted = 0;
 var bsw_dx, bsw_xp, bsw_yp, bsw_am, bsw_stx, bsw_sty;
 var bsw_window_width, bsw_window_height, bsw_scroll_height;
