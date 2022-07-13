@@ -23,6 +23,11 @@ body {
   display: inline-block;
 }
 
+.blinky:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 area { cursor: pointer; }
 audio { width: 100% }
 img { display: block; margin-left: auto; margin-right: auto; }
