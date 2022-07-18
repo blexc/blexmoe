@@ -4,5 +4,6 @@ deployment:
         - export DEPLOYPATH=/home/blexteza/public_html/
         - /bin/cp *.html $DEPLOYPATH
         - /bin/cp *.css $DEPLOYPATH
+        - /bin/cp *.js $DEPLOYPATH
         - /bin/cp -R images $DEPLOYPATH
         - /bin/cp -R audio $DEPLOYPATH
