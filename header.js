@@ -1,26 +1,13 @@
 var html = `
   <header>
     <div class="block">
-      <h1 style="display: inline-block;">WELCOME TO MY EPIC SITE</h1>
+      <h1 style="display: inline-block;">blex.moe</h1>
       <br>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <img src="./images/temmie.png" alt="temmie" style="width:30px; height: 27px; display: inline-block;"/>
-      <h3>Navigation</h3>
-      <ul>
-        <li><a href="index.html">Main Page</a></li>
-        <li><a href="aboutme.html">About Me</a></li>
-        <li><a href="favpictures.html">Pictures I like</a></li>
-      </ul>
+      | <a href="index.html">Main Page</a> | 
+      <a href="aboutme.html">About Me</a> | 
+      <a href="favpictures.html">Pictures</a> | 
+      <a href="ssroll.html">Super Sushi Roll</a> | 
+      <a href="https://blexchapman.itch.io">Other Games</a> | 
     </div>
     <br>
   </header>
