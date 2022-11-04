@@ -1,4 +1,8 @@
-body {
+html {
+  background-image: url("images/background1.gif");
+}
+
+header, body, footer {
   margin: 0px auto;
   padding: 20px;
   max-width: 700px;
@@ -6,7 +10,6 @@ body {
   font-family: monospace;
   font-size: 16px;
   color: #222;
-  background-image: url("images/background1.gif");
 }
 
 .block {

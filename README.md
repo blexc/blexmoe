@@ -1,2 +1,2 @@
 # alex chapman's epic website
-[blex.moe](https://www.blex.moe)
+[blexchapman.neocities.org](https://www.blexchapman.neocities.org)
