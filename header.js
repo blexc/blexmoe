@@ -5,7 +5,6 @@ var html = `
       <br>
       | <a href="index.html">About Me</a> | 
       <a href="ssroll.html">Super Sushi Roll</a> | 
-      <a href="contact.html">Contact</a> | 
       <a href="https://blexchapman.itch.io">Other Games</a> | 
     </div>
     <br>
