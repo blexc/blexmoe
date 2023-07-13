@@ -6,5 +6,6 @@ DEPLOYPATH=neocities_copypaste
 mkdir -p $DEPLOYPATH
 cp *.html $DEPLOYPATH
 cp *.css $DEPLOYPATH
-cp *.js $DEPLOYPATH
+cp -R js $DEPLOYPATH
 cp -R images $DEPLOYPATH
+cp -R misc $DEPLOYPATH

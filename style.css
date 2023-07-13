@@ -18,21 +18,7 @@ header, body, footer {
   background: white;
 }
 
-.favoritePicturesLarge {
-  width: 80%;
-}
-
-.blinky {
-  display: inline-block;
-}
-
-.blinky:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
 area { cursor: pointer; }
-audio { width: 100% }
 img { display: block; margin-left: auto; margin-right: auto; }
 hr { color: red; border: none; width: 75%; height: 1px; background-color: red; }
 
