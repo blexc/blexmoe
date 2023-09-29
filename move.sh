@@ -3,7 +3,8 @@
 # DEPLOYPATH to neocities site. Don't drag and drop folders. Drag files only.
 
 DEPLOYPATH=neocities_copypaste
-mkdir -p $DEPLOYPATH
+rm -rf $DEPLOYPATH
+mkdir $DEPLOYPATH
 cp *.html $DEPLOYPATH
 cp *.css $DEPLOYPATH
 cp -R js $DEPLOYPATH
