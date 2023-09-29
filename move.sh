@@ -11,4 +11,3 @@ cp *.html $DEPLOYPATH
 cp *.css $DEPLOYPATH
 cp -R js $DEPLOYPATH
 cp -R images $DEPLOYPATH
-cp -R misc $DEPLOYPATH
