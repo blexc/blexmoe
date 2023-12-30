@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>blex</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author", content="Blex">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+  </head>
+  <script src="js/header.js"></script>
+  <body>
+    <div class="block">
+      <h1>Super Sushi Roll Postmortem</h1>
+
+      <h2>Overview</h2>
+      <p>I released Super Sushi Roll on December 12th, 2023. I started the project in 2020 during the winter break. I want to summarize the project development as well as go over things that went well and not so well. I'll also discuss what I learned from this project.</p>
+      <p>Super Sushi Roll is a 2D roll-a-ball platformer where you control platforms and launch sushi to dinner plates. The control scheme is unusual. You move the sushi ball with the left joystick (or "A" and "D" keys) and rotate chopsticks with the right joystick (or mouse-x). Some people have described balancing the two controls like patting your head and rubbing your belly simultaneously.</p>
+      <p>The game is for players familiar with platformers who want a speedrunning-type game. I worked on the game on average a couple of nights a week between school and work.</p>
+
+      <h2>Details</h2>
+      <h3>Work</h3>
+      <p>The project was roughly 10,000 lines of code and took three years (part-time) to complete. Development time is estimated to be 900+ hours, but that is purely based on GameMaker project time (so this doesn't include time spent outside of GameMaker and previous versions of the game).</p>
+      <h3>Cost vs. Earnings</h3>
+      <p>After two weeks, I earned about $200 from Steam sales. The cost is estimated to be over $6,000 - nearly all due to PAX West 2023.</p>
+      <p>I'm making a steady income at my day job. I figured I'd put the money into my passion for making games. In retrospect, I don't think going to PAX was worth the risk. However, there was a massive spike in wishlists during that time.</p>
+      <div class="blog_img_and_desc">
+        <img src="images/blog_001_wishlists.png">
+        <p><i>The first day of PAX West, September 1st, I received almost 200 wishlists.</i></p>
+      </div>
+
+      <h2>What Went Right</h2>
+      <h3>Streaming</h3>
+      <p>I started streaming the development of Super Sushi Roll around the same time I started working on the project. Streaming - while I rarely had more than two viewers - was a fun way to keep me focused. It's easier to resist the urge to scroll through Twitter when you're on camera. I'd stream for anywhere between one to three hours. While streamers are expected to stay live for long periods of time (at least four hours), streaming was more so for this project's sake rather than my hopes of becoming a Twitch streamer.</p>
+      <h3>Starting Fresh</h3>
+      <p>After a year of developing this game, it was my last semester in college, and I decided to work on this game for my senior project from scratch.</p>
+      <p>There were a couple of reasons why I wanted to restart. Visually, the game had some problems. I didn't implement any tileset system for the physics walls, so I had to drag and drop strange bamboo pipe-looking objects and stretch them to create a makeshift wall. Also, I constantly tweaked the physics properties of objects (e.g. sushi, chopsticks, springs), which caused me to be in a never-ending loop of tweaking the levels. I needed to really hone in on the feel of the game and stick with it.</p>
+      <div class="blog_img_and_desc">
+        <img src="images/blog_001_old.png">
+        <p><i>Super Sushi Roll before starting fresh. You can see the platforms were pipe-looking and had to be individually placed.</i></p>
+      </div>
+      <p>Around this time, Atley Sakamoto started working on the art of the project instead of my friend Willis Peterson. I liked Willis's art, but Atley was going to school for game design and UI art. We've worked together to create the game "Needles" previously, and I thought his 2D/ UI designs were impressive. I knew Atley could bring Super Sushi Roll to the next level.</p>
+      <h3>Marketing at Conventions</h3>
+      <p>Not only were they fun, but conventions were a great way to get feedback and attention for my game. For future games, I'll continue to go to local conventions such as "Sac Gamers Expo" and "MagWest". However, I will not be traveling to go to bigger conventions like PAX. The flights, tickets, and hotels are way too expensive to justify, as previously discussed, for an indie dev - unless your game is gaining serious traction.</p>
+      <h3>Communication</h3>
+      <p>Atley and I met every Monday to discuss things we were working on and what we would work on next. We'd give each other feedback on new assets and mechanics. Often, we'd end up talking about our personal lives, which helped develop a rapport. We were both always busy with college or afterwards our full-time jobs, so it was important that we set a specific time each week we could both meet.</p>
+
+      <h2>What Went Wrong</h2>
+      <h3>Marketing on TikTok</h3>
+      <p>I started making TikTok videos in November 2022. I'd work on a video every Saturday for about an hour and upload it on the same day to TikTok, Instagram, and YouTube shorts.</p>
+      <p>My videos never received more than 2,000 views. My most viewed video on TikTok has 1,700 views. If this was YouTube five or ten years ago, I'd be ecstatic, but the reality is TikTok views have less weight. Popular game dev TikTokers such as "zapraygames" (creator of "Bopl Battle," a 2D multiplayer fighting game) receive up to a million views per video. Viewers can effortlessly swipe up to see the next dopamine-filled video, so you need a strong hook.</p>
+      <div class="blog_img_and_desc">
+        <img src="images/blog_001_bopl.png">
+        <p><i>My most viewed Super Sushi Roll video (left) and Bopl Battle (right). I relied on a dumb Tyler1 meme whereas Bopl Battle has cute blob characters and appealing VFX.</i></p>
+      </div>
+      <p>It's easy to see why "Bopl Battle" is so successful on the platform. The blob-like creatures are silly, and the weapons have satisfying VFX. Maybe in Super Sushi Roll, we could have added more VFX to create a more satisfying game-feel. Or emphasized the cat mascot inspired by my cat, Mr. Pokeylope. In the end, while Super Sushi Roll looks awesome and polished, it lacks some sort of iconic visual aspect to make it stand out against the rest of the TikTok videos out there.</p>
+      <h3>Marketing through Content Creators</h3>
+      <p>While I created weekly videos and attended numerous conventions, I failed to give myself enough time to reach out to content creators. The problem was I continued to work on the game up until the day of release. I should have finished the project this year and focused hard on marketing for at least one month to ensure the game would get maximum visibility upon release.</p>
+      <h3>My UI System Sucked</h3>
+      <p>In GameMaker, there are no easy UI tools for you to use like in Unity. You need to make your own. To do this, I followed a tried-and-true mantra that I learned from a sticker I saw at my college's computer lab: "Weeks of programming can save you hours of planning." In other words, I created the UI system as I went, and never really outlined the entire system.</p>
+      <p>I dreaded every time I needed to update the UI. It took weeks to get anything done. (But hey, at least I didn't have to spend a day planning!) I turned Atley's strength (UI) into the game's weakness.</p>
+      <p>I should have worked on the UI system in an empty project first and drawn the system out on paint.net. That way all of the clutter from the project would be gone, and I'd develop a better understanding of the system.</p>
+      <h3>Setting Priorities</h3>
+      <p>In the final year, it felt like I was making no real progress. I only added 12 new levels since the first year. The game has received no new mechanics (except for controlling the moving platforms), and I kept tweaking the game modes even though they were basically replaying the same levels with new rules.</p>
+      <p>I believe this happened because - while I did create a game design document (or GDD) - I stopped maintaining it after the first year. When I started fresh for my senior project, I created a new GDD, outlining all the features I wanted during gameplay and in menus. I completed everything on that document after a couple of months. Then, I relied on a Trello board to aimlessly guide me to the game's completion.</p>
+      <p>The problem with a Trello board is it's not as organized as a GDD, and it was easy for me to keep adding Trello cards whenever I felt like it. With a GDD however, updating it requires you to keep the rest of the game as a whole in mind.</p>
+      <h3>The Game's Difficulty and Not Responding to Feedback</h3>
+      <p>I've watched hundreds of people play my game at various conventions over the years, and something I've noticed is that some people couldn't figure out the controls. You need to learn the tricks of how to use the chopsticks in order to launch the sushi ball accurately. A couple of professional speedrunners at PAX - my target audience - could not complete the demo because they didn't know how to launch the sushi ball with the chopsticks. This was a fundamental problem: the controls weren't intuitive enough.</p>
+      <p>I never truly resolved this. Instead, I continuously made the first levels easier. I was hoping players would be able to learn through level design, but after watching players struggle, I realized I needed a tutorial. I scattered tutorials across the game, and put an especially important one in the final level of Area 2 (Bamboo Forest). I needed something more accessible for new players.</p>
+      <p>I plan on creating a tutorial level where players can enter from the main menu. This level will teach them the controls and chopstick tricks required for them to enjoy the game. Given the unconventional control scheme, I should have implemented this a long time ago.</p>
+
+      <h2>Conclusions</h2>
+      <h3>Advice and Lessons Learned</h3>
+      <ul>
+        <li>Go to local conventions, but don't travel (unless your game is already doing well).</li>
+        <li>Respond to feedback immediately. I waited too long to create an accessible tutorial, and as a result, players couldn't enjoy the game to the fullest.</li>
+        <li>Experiment with new systems in an empty project for clarity.</li>
+        <li>Consider streaming if you struggle with ADHD.</li>
+        <li>Make sure your game has a striking visual appeal as soon as possible to hook players in and ensure success on social media.</li>
+        <li>Don't just make a GDD. Continuously update it as you develop the game so you can assess design problems with the entire game into consideration.</li>
+        <li>Give yourself time to market the game before release.</li>
+      </ul>
+      <h3>Future Plans</h3>
+      <p>I plan on re-adding the demo on Steam and adding a tutorial level accessible in the main menu. Also, I'd like to set up Keymailer and reach out to content creators to play the game. In a couple of weeks, I'm going to MagFest 2024. While I'm already breaking my rules about not traveling for marketing, this one is significantly cheaper than PAX.</p>
+
+      <h3>Thanks for Reading</h3>
+      <p>Three years went by fast, and I enjoyed working on this game. I hope to learn from this experience and create something even better soon.</p>
+    </div>
+  </body>
+  <script src="js/footer.js"></script>
+</html>

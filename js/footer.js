@@ -1,6 +1,8 @@
 var html = `
   <footer>
-    <img src="./images/neocities.png" alt="hosted by neocities"/>
+    <div class="block">
+      <p>Website by <a href="https://twitter.com/blexchapman">blex</a> (c) 2023-24. Hosted by <a href="https://neocities.org">Neocities</a>.</p>
+    </div>
     <br>
   </footer>
   `;
